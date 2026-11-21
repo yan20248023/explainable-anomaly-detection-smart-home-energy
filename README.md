@@ -49,6 +49,8 @@ The overall mean LIME local-surrogate R² was **0.3484**, indicating limited loc
 
 **This is an archival, code-centered research repository, not a standalone one-click benchmark.** The historical notebooks reference an existing Google Colab/Drive layout and external datasets, intermediate processed files, and previously fitted artifact files that are not redistributed here. Several notebooks reflect an iterative development history and should not be executed blindly in their displayed order. See `docs/REPRODUCIBILITY.md` before attempting a rerun.
 
-The complete 130-run/2,990-feature-record consolidated CSV evidence was verified in the originating research environment but is **not included in this initial publication draft**. The `scripts/audit_stability.py` script can verify it if those CSVs are exported separately and made available locally.
+The repository includes the verified consolidated explanation-stability evidence for all 13 selected residential windows: 130 explanation runs, 2,990 original-feature records, 260 pairwise top-five Jaccard comparisons, 26 window-by-method summaries, and six dataset-level and overall summaries. These records are available in the `evidence/` directory, together with the provenance manifest.
+
+The consolidated evidence is automatically checked using GitHub Actions and `scripts/audit_stability.py`. These checks validate the archived explanation results and their internal numerical consistency; they do not retrain the anomaly detectors or establish the physical correctness of detected anomalies.
 
 > Licensing is not yet declared: a license should be chosen and approved before public publication. Dataset copyright and source licenses remain with their respective owners.
