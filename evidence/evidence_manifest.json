@@ -1,0 +1,53 @@
+{
+  "counts": {
+    "feature_records": 2990,
+    "methods": 2,
+    "pair_records": 260,
+    "runs": 130,
+    "windows": 13
+  },
+  "historical_Kernel_SHAP_full_vector_identity": "NOT_ESTABLISHED",
+  "historical_files_modified": false,
+  "input_source_batches": [
+    "5A",
+    "5B",
+    "5C",
+    "5D",
+    "5E",
+    "5F",
+    "5G",
+    "5H"
+  ],
+  "jaccard_metric": "mean_of_10_pairwise_top5_set_jaccards_per_window",
+  "no_model_retraining": true,
+  "protocol_sha256": "849e9d7ef15cc3b135ac74854f491ae3c2113f39c3ef527ca789cde8e829334c",
+  "sd_rule": "sample_standard_deviation_ddof1_across_window_means",
+  "source_sha256": {
+    "06_explanation_evaluation/CHECKPOINT5A_UKDALE01_SHAP_BACKGROUND_5SEEDS_849e9d7e/ukdale01_shap_23_features_by_seed.csv": "7723f073f46c91e0cd079c1a1aa8ca9a0027e4a2fbe3f68a4fa20e3c8995cfe0",
+    "06_explanation_evaluation/CHECKPOINT5A_UKDALE01_SHAP_BACKGROUND_5SEEDS_849e9d7e/ukdale01_shap_pairwise_jaccard.csv": "292cdff3b6e7b0e1c12c30d7e613d9a3a2a87b7fc8a01dff2ba72ad7ed4db8aa",
+    "06_explanation_evaluation/CHECKPOINT5A_UKDALE01_SHAP_BACKGROUND_5SEEDS_849e9d7e/ukdale01_shap_runs.csv": "7a966a97dce5ed54ac18549d9535426f9d4065d56626b044f263cb6a9c4b1d97",
+    "06_explanation_evaluation/CHECKPOINT5B_UKDALE01_LIME_PERTURBATION_5SEEDS_849e9d7e/ukdale01_lime_23_feature_mapping.csv": "d2b5d6eb354de7a112c2f7323dee991ab93a3225aa462f4fe8b9cf93987bc00d",
+    "06_explanation_evaluation/CHECKPOINT5B_UKDALE01_LIME_PERTURBATION_5SEEDS_849e9d7e/ukdale01_lime_pairwise_jaccard.csv": "7ceb4e438bf638bf110cb53c84568b94c5602fb3204c7427ff6ee037e554f4bc",
+    "06_explanation_evaluation/CHECKPOINT5B_UKDALE01_LIME_PERTURBATION_5SEEDS_849e9d7e/ukdale01_lime_runs.csv": "17c51993b64ba0ebf7fcd1ff84cd7adf8a5ed5d6c85ebcb4e58cd6dcb03b34f1",
+    "06_explanation_evaluation/CHECKPOINT5C_AMPDS201_SHAP_BACKGROUND_5SEEDS_849e9d7e/ampds201_shap_23_features_by_seed.csv": "e9ba79e0e458356ec73465ccea71c3a7ec290997c2bec87728ee400fc57816e2",
+    "06_explanation_evaluation/CHECKPOINT5C_AMPDS201_SHAP_BACKGROUND_5SEEDS_849e9d7e/ampds201_shap_pairwise_jaccard.csv": "842231603caadcdd8153576ebe0371ef16523d494e18f4ca399a847993e70b63",
+    "06_explanation_evaluation/CHECKPOINT5C_AMPDS201_SHAP_BACKGROUND_5SEEDS_849e9d7e/ampds201_shap_runs.csv": "1eb4afbfe14f9e17e2aa0b67d761134c1a21264dce5b642734e5f9adfa463dcf",
+    "06_explanation_evaluation/CHECKPOINT5D_AMPDS201_LIME_PERTURBATION_5SEEDS_849e9d7e/ampds201_lime_23_feature_mapping.csv": "27c61d42b0808d177073188c4797cf2c03659d0515125d780f5dce84dcec0ec1",
+    "06_explanation_evaluation/CHECKPOINT5D_AMPDS201_LIME_PERTURBATION_5SEEDS_849e9d7e/ampds201_lime_pairwise_jaccard.csv": "afd6cd10255bdb586e264da5e523d54e074b08f3babade5593efb1c4cd2bae63",
+    "06_explanation_evaluation/CHECKPOINT5D_AMPDS201_LIME_PERTURBATION_5SEEDS_849e9d7e/ampds201_lime_runs.csv": "932c2cef712fcb43d81aa1b8fd10738ad676783781139b90990421fe42be2477",
+    "06_explanation_evaluation/CHECKPOINT5E_UKDALE_REMAINING4_SHAP_5SEEDS_849e9d7e/ukdale_remaining4_shap_23_features_by_seed.csv": "068c3e114876724741f80397accf9f5829986d160e57891aa0acd37dd9d1a630",
+    "06_explanation_evaluation/CHECKPOINT5E_UKDALE_REMAINING4_SHAP_5SEEDS_849e9d7e/ukdale_remaining4_shap_pairwise_jaccard.csv": "d1879cc90f818fe742cfcdb9b706be9c20cf38dca5831ae0651d851fe084f6fb",
+    "06_explanation_evaluation/CHECKPOINT5E_UKDALE_REMAINING4_SHAP_5SEEDS_849e9d7e/ukdale_remaining4_shap_runs.csv": "b310835ce64f9a9a5146d0f68a73787cd3efa463a24081df9f8c90d624bdc675",
+    "06_explanation_evaluation/CHECKPOINT5F_UKDALE_REMAINING4_LIME_PERTURBATION_5SEEDS_849e9d7e/ukdale_remaining4_lime_23_feature_mapping.csv": "7df58fdad242eab5b3263f02f66f20d1971e22d360d98eb818b9a971c645ad48",
+    "06_explanation_evaluation/CHECKPOINT5F_UKDALE_REMAINING4_LIME_PERTURBATION_5SEEDS_849e9d7e/ukdale_remaining4_lime_pairwise_jaccard.csv": "a8f17880079f45c15ca9498f129d2819f04cba80cfbeb9f8ab07e7dae5df0aa9",
+    "06_explanation_evaluation/CHECKPOINT5F_UKDALE_REMAINING4_LIME_PERTURBATION_5SEEDS_849e9d7e/ukdale_remaining4_lime_runs.csv": "1752d8a76b03258bbed8e4f930869053b24ba91d909adc43a681cd6fe52990e1",
+    "06_explanation_evaluation/CHECKPOINT5G_AMPDS2_REMAINING7_SHAP_5SEEDS_849e9d7e/ampds2_remaining7_shap_23_features_by_seed.csv": "8561071d3fe63c9d63ffacd9d5c5b376d58068369ac58aae0fa72f6e64d6facb",
+    "06_explanation_evaluation/CHECKPOINT5G_AMPDS2_REMAINING7_SHAP_5SEEDS_849e9d7e/ampds2_remaining7_shap_pairwise_jaccard.csv": "644a6e92b800c66ccbe744c977b85890b6314e9b87907a456ee5ef7dbdcbfa0a",
+    "06_explanation_evaluation/CHECKPOINT5G_AMPDS2_REMAINING7_SHAP_5SEEDS_849e9d7e/ampds2_remaining7_shap_runs.csv": "110a7dd64b4c46f53a9a1e86ba11a31dc14e93d8f3d45fa797efd9119b683a6a",
+    "06_explanation_evaluation/CHECKPOINT5H_AMPDS2_REMAINING7_LIME_PERTURBATION_5SEEDS_849e9d7e/ampds2_remaining7_lime_23_feature_mapping.csv": "0882be5377a80dc86f7d6a69bf4ecfaedb7d10422d3de57a83341bc0d7438f0b",
+    "06_explanation_evaluation/CHECKPOINT5H_AMPDS2_REMAINING7_LIME_PERTURBATION_5SEEDS_849e9d7e/ampds2_remaining7_lime_pairwise_jaccard.csv": "c0937bb92d9146ac0a5ce3e90545158f1c314c95c50c0091570e79c98268ace2",
+    "06_explanation_evaluation/CHECKPOINT5H_AMPDS2_REMAINING7_LIME_PERTURBATION_5SEEDS_849e9d7e/ampds2_remaining7_lime_runs.csv": "bc5fd1606ea3358014b1bc293267793a8a281d1a0c0d46b2a4fa2806e990da1c"
+  },
+  "study": "13_window_five_seed_SHAP_LIME_stability",
+  "unit_of_summary": "window"
+}

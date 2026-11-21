@@ -1,0 +1,176 @@
+{
+  "created_for": "github_publication_review",
+  "original_notebooks_unmodified": true,
+  "sanitized_notebooks": [
+    {
+      "original_name": "Thesis(1).ipynb",
+      "public_path": "notebooks/historical/01_master_experiments.ipynb",
+      "original_file_sha256": "4b22861ab1dc9f5951b6be272f5c6d62c8cd9ac675da01e34879cebe596fa1eb",
+      "public_file_sha256": "da842f145cde02f0b9f9bf7e8e84833255289d28fe1d4da8affb11f86214401b",
+      "original_code_cell_count": 620,
+      "public_code_cell_count": 619,
+      "disabled_unsafe_cell_indices_zero_based": [
+        39
+      ],
+      "source_changed": true,
+      "outputs_cleared": true,
+      "runtime_execution_verified": false
+    },
+    {
+      "original_name": "Thesis_Split_Boundary_Correction(1).ipynb",
+      "public_path": "notebooks/historical/02_split_boundary_correction.ipynb",
+      "original_file_sha256": "59786572c97e26bfc29029a2e9ac534a2bd1e427241dffe981f1a558e9b8dd76",
+      "public_file_sha256": "610b1e4d26fac71726d142f6aeff5f7611d7e1e347fd9f7852bdd6c08abae352",
+      "original_code_cell_count": 66,
+      "public_code_cell_count": 66,
+      "disabled_unsafe_cell_indices_zero_based": [],
+      "source_changed": false,
+      "outputs_cleared": true,
+      "runtime_execution_verified": false
+    },
+    {
+      "original_name": "Thesis_Final_Robustness_Experiments(1).ipynb",
+      "public_path": "notebooks/historical/03_robustness_experiments.ipynb",
+      "original_file_sha256": "c57b1168f1c83960f132aed7fe5e14b1635a34c81136806e4cde0d5c95869631",
+      "public_file_sha256": "322a13fd2ac96c6952fb9bc757272457d926cac81c3075270013d416f8aff0cc",
+      "original_code_cell_count": 30,
+      "public_code_cell_count": 30,
+      "disabled_unsafe_cell_indices_zero_based": [],
+      "source_changed": false,
+      "outputs_cleared": true,
+      "runtime_execution_verified": false
+    },
+    {
+      "original_name": "Thesis_Final_Robustness_Analyses(1).ipynb",
+      "public_path": "notebooks/historical/04_robustness_analyses.ipynb",
+      "original_file_sha256": "5742b4d619fd4a140c0cc379411f56d56c4230f58d91a7bec7fdbbeb362da70b",
+      "public_file_sha256": "2f526e5fc2594128d45921781a6869c841dc8ecbce883c4673799c0e3beca82f",
+      "original_code_cell_count": 10,
+      "public_code_cell_count": 10,
+      "disabled_unsafe_cell_indices_zero_based": [],
+      "source_changed": false,
+      "outputs_cleared": true,
+      "runtime_execution_verified": false
+    },
+    {
+      "original_name": "Supervisor_Followup_EQE_LOF_Audit(1).ipynb",
+      "public_path": "notebooks/historical/05_eqe_lof_audit.ipynb",
+      "original_file_sha256": "6932f9a5e8d828ea366a4c74b0daa01be78473e5516f3e8a2e2f9987e42d29c3",
+      "public_file_sha256": "da263a52f8d469a05e919ff0b416e08c83a30406b49d37e0214d5a979bdc0c30",
+      "original_code_cell_count": 18,
+      "public_code_cell_count": 18,
+      "disabled_unsafe_cell_indices_zero_based": [],
+      "source_changed": false,
+      "outputs_cleared": true,
+      "runtime_execution_verified": false
+    },
+    {
+      "original_name": "Thesis_Final_Supervisor_Revisions_2026.ipynb",
+      "public_path": "notebooks/historical/06_final_supervisor_revisions.ipynb",
+      "original_file_sha256": "2796d13d9fcaa621a1592e1fb3d8ce2c0a130e93cd774d8b3df6080580e7c184",
+      "public_file_sha256": "bbb072911d6152d3c22697cfa79900a8ec94f9bbab09265025aa08ef97f71451",
+      "original_code_cell_count": 42,
+      "public_code_cell_count": 42,
+      "disabled_unsafe_cell_indices_zero_based": [],
+      "source_changed": false,
+      "outputs_cleared": true,
+      "runtime_execution_verified": false
+    },
+    {
+      "original_name": "Checkpoint3_UKDALE_01_Seed42_KernelSHAP.ipynb",
+      "public_path": "notebooks/stability_validation/checkpoint03_seed42_shap_reconstruction.ipynb",
+      "original_file_sha256": "5a9f5113f566fc96514c1a99bcf39fdae312c0e633bb2d546b92a864b5aa1ec5",
+      "public_file_sha256": "552ff58cab6991667deb5898ac063135c37a6df0ebde1d4b9c0f419a54def73a",
+      "original_code_cell_count": 1,
+      "public_code_cell_count": 1,
+      "disabled_unsafe_cell_indices_zero_based": [],
+      "source_changed": false,
+      "outputs_cleared": true,
+      "runtime_execution_verified": false
+    },
+    {
+      "original_name": "Checkpoint5C_AMPDS201_SHAP_5Seeds.ipynb",
+      "public_path": "notebooks/stability_validation/checkpoint05c_ampds2_01_shap.ipynb",
+      "original_file_sha256": "ea8b45bd357bc4f2c071fa2a261f26bec1fb9a2ab715164fd60ff3f4f3b75583",
+      "public_file_sha256": "56465f8aef430f938ce75d909002c7efa97e49a0400ffc89f99f92ad6c38801c",
+      "original_code_cell_count": 1,
+      "public_code_cell_count": 1,
+      "disabled_unsafe_cell_indices_zero_based": [],
+      "source_changed": false,
+      "outputs_cleared": true,
+      "runtime_execution_verified": false
+    },
+    {
+      "original_name": "Checkpoint5D_AMPDS201_LIME_5Seeds.ipynb",
+      "public_path": "notebooks/stability_validation/checkpoint05d_ampds2_01_lime.ipynb",
+      "original_file_sha256": "67c2ecd34a82076c5172afbc1f74a90a4f7f9d633619e363650795ef90a92611",
+      "public_file_sha256": "70da0b38c0447ebfc5f71ec9841c514427a3ba306a7759de482a3a450b95ffda",
+      "original_code_cell_count": 1,
+      "public_code_cell_count": 1,
+      "disabled_unsafe_cell_indices_zero_based": [],
+      "source_changed": false,
+      "outputs_cleared": true,
+      "runtime_execution_verified": false
+    },
+    {
+      "original_name": "Checkpoint5E_UKDALE_Remaining4_SHAP_5Seeds.ipynb",
+      "public_path": "notebooks/stability_validation/checkpoint05e_ukdale_02_05_shap.ipynb",
+      "original_file_sha256": "ba59333d864d17e4d0bf4e22607ec779d577397e449fd20e8b122090906ef55f",
+      "public_file_sha256": "5fe2d291247770cab0cf0dd42f83ec9e181e3f0892d965aa01596164602b68dc",
+      "original_code_cell_count": 1,
+      "public_code_cell_count": 1,
+      "disabled_unsafe_cell_indices_zero_based": [],
+      "source_changed": false,
+      "outputs_cleared": true,
+      "runtime_execution_verified": false
+    },
+    {
+      "original_name": "Checkpoint5F_UKDALE_Remaining4_LIME_5Seeds.ipynb",
+      "public_path": "notebooks/stability_validation/checkpoint05f_ukdale_02_05_lime.ipynb",
+      "original_file_sha256": "e260fa31f60b8cfc1c41147f0f35e16ceeeb38f9fa8587831485e3d1be6a14f2",
+      "public_file_sha256": "605d4fc314631d928f4971584443c78474ee46b0a7b152c8ab45532581d541f6",
+      "original_code_cell_count": 1,
+      "public_code_cell_count": 1,
+      "disabled_unsafe_cell_indices_zero_based": [],
+      "source_changed": false,
+      "outputs_cleared": true,
+      "runtime_execution_verified": false
+    },
+    {
+      "original_name": "Checkpoint5G_AMPDS2_Remaining7_SHAP_5Seeds.ipynb",
+      "public_path": "notebooks/stability_validation/checkpoint05g_ampds2_02_08_shap.ipynb",
+      "original_file_sha256": "6c232b5781bed5f0616ff098ca1a0767179aa877225b44294b8b3e790601bb92",
+      "public_file_sha256": "669e14c310591789618079f518fe6eb5356ec2feb21e761bd1f4a67049f77a32",
+      "original_code_cell_count": 1,
+      "public_code_cell_count": 1,
+      "disabled_unsafe_cell_indices_zero_based": [],
+      "source_changed": false,
+      "outputs_cleared": true,
+      "runtime_execution_verified": false
+    },
+    {
+      "original_name": "Checkpoint5H_AMPDS2_Remaining7_LIME_5Seeds.ipynb",
+      "public_path": "notebooks/stability_validation/checkpoint05h_ampds2_02_08_lime.ipynb",
+      "original_file_sha256": "03a48efe07cc55ae3976afce0e8a2c2b00c6c4a7148970795fb35e30660966ff",
+      "public_file_sha256": "4d863d91658b35c64ae48f350b32cac0f2fdb2342b53972bddf7b387a7a62eb1",
+      "original_code_cell_count": 1,
+      "public_code_cell_count": 1,
+      "disabled_unsafe_cell_indices_zero_based": [],
+      "source_changed": false,
+      "outputs_cleared": true,
+      "runtime_execution_verified": false
+    },
+    {
+      "original_name": "Checkpoint6A_Consolidate_13Window_SHAP_LIME_Stability_CORRECTED.ipynb",
+      "public_path": "notebooks/stability_validation/checkpoint06a_stability_consolidation.ipynb",
+      "original_file_sha256": "ca32ecf82871d9a563d670ddaca8be76af6d62d10567775f3ecdc268f8a79717",
+      "public_file_sha256": "6f5f2146c812a11a2efe747fd9c13261a28772a816e1a1b0193802bee31780e2",
+      "original_code_cell_count": 1,
+      "public_code_cell_count": 1,
+      "disabled_unsafe_cell_indices_zero_based": [],
+      "source_changed": false,
+      "outputs_cleared": true,
+      "runtime_execution_verified": false
+    }
+  ]
+}

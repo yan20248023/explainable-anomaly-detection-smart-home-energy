@@ -1,0 +1,11 @@
+# Recorded versions for 2026 local explanation and stability experiments.
+# Historical model training notebooks may need additional/version-specific packages.
+numpy==2.4.6
+pandas==2.2.3
+scikit-learn==1.6.1
+shap==0.54.1
+lime==0.2.0.1
+joblib
+scipy
+matplotlib
+jupyterlab
