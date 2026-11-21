@@ -1,0 +1,46 @@
+
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+token.json
+service-account*.json
+
+# Raw and processed datasets
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Trained models and checkpoints
+models/
+checkpoints/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+
+# Local runtime and temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Large archives
+*.zip
+*.7z
+*.tar
+*.tar.gz
