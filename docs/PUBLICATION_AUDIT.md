@@ -21,7 +21,8 @@
 
 ## Required independent approvals
 
-- Choose and approve a code license before publishing (none has been invented or implied here).
+- The thesis supervisor has approved making the repository public and citing it in the thesis. This records supervisor permission; it is not an independent determination of institutional intellectual-property ownership.
+- Initial public-release licensing decision: no open-source license. Reuse and redistribution rights are not affirmatively granted; third-party licenses remain applicable.
 - Check source dataset terms before redistributing any derived time series or large source data; no datasets are included by default.
 - Review every staged notebook for accidental personal details or other sensitive strings not caught by automated scanning.
 - Validate repository ownership and public-visibility settings.
