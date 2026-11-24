@@ -15,8 +15,8 @@
 - Notebooks may clone public dataset repositories or install dependencies; users should inspect cells before running.
 - Dependency conflicts may occur because historical training and final 2026 attribution audits used different environments.
 - Raw notebook outputs were cleared, and **the notebooks included in the archive have not been rerun fresh**.
-- Checkpoints 5A and 5B source notebooks are not included here; their evidence is represented by the original experiment manifest and the consolidated outputs that have not yet been exported into this draft.
-- The evidence manifest provides hashes and methodological status, but **without corresponding exported CSVs, third parties cannot independently recompute all findings from this ZIP alone**.
+- Checkpoints 5A and 5B source notebooks are not included in this repository. Their experimental provenance is documented in `evidence/evidence_manifest.json`, and the consolidated five-seed SHAP/LIME results are included in the published evidence CSV files.
+- The `evidence/` directory contains the consolidated 130 explanation-run records, 2,990 original-feature records, 260 pairwise Jaccard comparisons, and supporting summaries. Their internal numerical consistency has been verified using `scripts/audit_stability.py` and GitHub Actions. These checks do not independently reproduce the full historical training pipeline or validate physical anomaly correctness.
 - No new claims of physical fault detection, causal attribution, or population generalization are supported.
 
 ## Required independent approvals
