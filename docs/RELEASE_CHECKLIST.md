@@ -1,12 +1,39 @@
-# Release checklist
 
-- [ ] Personally review cleaned notebook source, especially cells that mount Drive, access files, download external resources, or write artifacts.
-- [ ] Decide whether the historical development notebooks should be public in full or moved to a separate archival release.
-- [ ] Confirm redistribution rights and choose an appropriate code license.
-- [ ] Decide whether to publish the **consolidated derived evidence** after checking data licenses; it is not included in this starter ZIP.
-- [ ] If publishing evidence, export the five files listed in `docs/REPRODUCIBILITY.md` and run the `scripts/audit_stability.py` verification.
-- [ ] Confirm README author, institutional affiliation and research claims.
-- [ ] Connect GitHub and create a **public** repository only after reviewing the above.
-- [ ] Upload the reviewed repository contents and verify that the files, README and code are accessible anonymously.
-- [ ] Record the actual repository URL, optionally tag `v1.0.0` and create a stable release.
-- [ ] Add the verified URL to the manuscript's reproducibility/code-availability section and recompile Overleaf.
+# Research Code — Final Release Checklist
+
+## Completed Preparation
+
+- [x] Create the private GitHub repository.
+- [x] Upload the cleaned historical research notebooks.
+- [x] Remove saved notebook outputs and execution counters.
+- [x] Disable the potentially destructive notebook deletion command.
+- [x] Upload the consolidated five-seed SHAP/LIME evidence.
+- [x] Verify the 130 explanation runs, 2,990 feature records, and 260 pairwise Jaccard comparisons.
+- [x] Pass the GitHub Actions automated verification workflow.
+- [x] Update README.md with the evidence description.
+- [x] Update reproducibility and publication-audit documentation.
+- [x] Document the limitations of independent reproduction.
+
+## Before Public Release
+
+- [ ] Complete a final manual review of notebook source code and repository contents for sensitive information.
+- [ ] Confirm that publishing the included research code and derived evidence is permitted.
+- [ ] Document the software licensing decision. Do not assume that an MIT License is authorized.
+- [ ] Confirm that no private datasets, fitted model artifacts, or credentials are included.
+- [ ] Confirm that all repository documentation accurately describes the released contents.
+
+## Public Repository Verification
+
+- [ ] Change repository visibility from Private to Public after the release checks.
+- [ ] Verify that the repository and evidence files are accessible without signing in.
+- [ ] Confirm that the public GitHub Actions verification passes.
+- [ ] Record the final public repository URL.
+
+## Thesis Integration
+
+- [ ] Add Appendix D: Research Code and Reproducibility Resources.
+- [ ] Include the verified public GitHub repository URL.
+- [ ] Describe the archived notebooks, evidence files, verification scripts, and reproducibility limitations.
+- [ ] Recompile the thesis in Overleaf.
+- [ ] Confirm that Appendix D appears correctly in the table of contents.
+- [ ] Submit the updated thesis for Prof. Rawan's final approval.
