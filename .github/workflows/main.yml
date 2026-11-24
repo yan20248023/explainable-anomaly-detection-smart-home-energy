@@ -7,7 +7,7 @@ on:
       - "evidence/**"
       - "notebooks/**"
       - "scripts/**"
-      - ".github/workflows/verify-evidence.yml"
+      - ".github/workflows/main.yml"
   workflow_dispatch:
 
 permissions:
