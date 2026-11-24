@@ -53,4 +53,4 @@ The repository includes the verified consolidated explanation-stability evidence
 
 The consolidated evidence is automatically checked using GitHub Actions and `scripts/audit_stability.py`. These checks validate the archived explanation results and their internal numerical consistency; they do not retrain the anomaly detectors or establish the physical correctness of detected anomalies.
 
-> Licensing is not yet declared: a license should be chosen and approved before public publication. Dataset copyright and source licenses remain with their respective owners.
+> **License and rights:** No open-source license is granted for this repository at this stage. The material is provided for academic inspection; reuse and redistribution require authorization from the relevant rights holders, except where otherwise permitted by applicable law or GitHub's terms. Third-party software and dataset licenses remain with their respective owners.
