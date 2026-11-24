@@ -17,9 +17,9 @@
 ## Before Public Release
 
 - [ ] Complete a final manual review of notebook source code and repository contents for sensitive information.
-- [ ] Confirm that publishing the included research code and derived evidence is permitted.
-- [ ] Document the software licensing decision. Do not assume that an MIT License is authorized.
-- [ ] Confirm that no private datasets, fitted model artifacts, or credentials are included.
+- [x] Record supervisor approval to make the research repository public and cite it in the thesis (institutional ownership has not been independently adjudicated).
+- [x] Document the initial licensing decision: no open-source license is granted.
+- [x] Verify the uploaded archive and evidence for obvious credentials, private datasets, and fitted model artifacts (automated screening does not replace manual source review).
 - [ ] Confirm that all repository documentation accurately describes the released contents.
 
 ## Public Repository Verification
