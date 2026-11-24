@@ -39,7 +39,7 @@ The overall mean LIME local-surrogate R² was **0.3484**, indicating limited loc
 
 - `notebooks/historical/`: output-free copies of the project's historical Colab experiment and audit notebooks.
 - `notebooks/stability_validation/`: available controlled validation checkpoints, including the **corrected** 6A consolidation notebook.
-- `evidence/evidence_manifest.json`: preserved integrity/provenance summary for the completed stability analysis.
+- `evidence/`: five consolidated SHAP/LIME explanation-stability CSVs and `evidence_manifest.json` for provenance and integrity.
 - `scripts/audit_stability.py`: recomputes explanation-set overlap and counts from exported consolidated evidence files.
 - `docs/REPRODUCIBILITY.md`: dataset, environment, dependency, notebook, and evidence instructions.
 - `docs/PUBLICATION_AUDIT.md`: what was removed, what was not verified, and what still needs to be checked.
