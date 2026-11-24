@@ -24,10 +24,10 @@
 
 ## Public Repository Verification
 
-- [ ] Change repository visibility from Private to Public after the release checks.
+- [x] Change repository visibility from Private to Public after the release checks.
 - [ ] Verify that the repository and evidence files are accessible without signing in.
 - [ ] Confirm that the public GitHub Actions verification passes.
-- [ ] Record the final public repository URL.
+- [x] Record the final public repository URL: https://github.com/yan20248023/explainable-anomaly-detection-smart-home-energy.
 
 ## Thesis Integration
 
